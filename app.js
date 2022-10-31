@@ -9,16 +9,6 @@ app.set('port', (process.env.PORT || 9981))
 app.use(express.static(__dirname + '/images'))
 
 
-/*
-app.get("/getCall", function(req,res){ 
-console.log("GET Method caled");
-console.log(__dirname);
-
-res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
-
-}).listen(9009);;;
-console.log(__dirname+"/images/mithunlogo.jpg");
-*/
 app.get('/mithuntechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
@@ -29,7 +19,6 @@ app.get('/mithuntechnologies', function(request, response) {
   })
  
 
-//app.get("/html", function(req,res){
 app.get("/html", function(req,res){
     res.set("Content-Type","text/html");
     //res.contentType("html") ; 
