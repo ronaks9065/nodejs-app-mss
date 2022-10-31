@@ -1,8 +1,6 @@
 var express = require("express"); 
 const path = require('path');
 const cfenv = require('cfenv');
-const cfenv = require('cfenv');
-const cfenv = require('cfenv');
 
 var app  =  express(); 
 var appEnv = cfenv.getAppEnv();
