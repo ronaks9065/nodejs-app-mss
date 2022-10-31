@@ -1,6 +1,10 @@
 var express = require("express"); 
 const path = require('path');
 const cfenv = require('cfenv');
+const cfenv = require('cfenv');
+const cfenv = require('cfenv');
+const cfenv = require('cfenv');
+
 
 var app  =  express(); 
 var appEnv = cfenv.getAppEnv();
@@ -16,7 +20,7 @@ console.log(__dirname);
 
 res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
 
-}).listen(9009);
+}).listen(9009);;;
 console.log(__dirname+"/images/mithunlogo.jpg");
 */
 app.get('/mithuntechnologies', function(request, response) {
@@ -36,7 +40,7 @@ app.get("/html", function(req,res){
     res.write("<h2>Welcome Docker</h2>");
     res.write("<h2>/html call</h2>");
     //must end 
-    res.end();
+    res.end();;;
     
     });
     app.get("/jsonData", function(req,res){
