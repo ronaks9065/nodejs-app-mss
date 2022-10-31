@@ -27,8 +27,6 @@ app.get("/html", function(req,res){
     });
     app.get("/jsonData", function(req,res){
         res.type('json');
-        //res.type('application/json');
-        //res.json({'name': 'Mithun Reddy L'});
         res.send({
 		'name': 'Mithun Technologies',
 		'technology': 'DevOps',
