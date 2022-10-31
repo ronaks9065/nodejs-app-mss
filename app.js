@@ -1,10 +1,6 @@
 var express = require("express"); 
 const path = require('path');
 const cfenv = require('cfenv');
-const cfenv = require('cfenv');
-const cfenv = require('cfenv');
-const cfenv = require('cfenv');
-
 
 var app  =  express(); 
 var appEnv = cfenv.getAppEnv();
@@ -40,7 +36,7 @@ app.get("/html", function(req,res){
     res.write("<h2>Welcome Docker</h2>");
     res.write("<h2>/html call</h2>");
     //must end 
-    res.end();;;
+    res.end();
     
     });
     app.get("/jsonData", function(req,res){
