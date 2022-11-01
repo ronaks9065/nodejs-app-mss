@@ -1,4 +1,5 @@
 var express = require("express"); 
+var express = require("express"); 
 const path = require('path');
 const cfenv = require('cfenv');
 
@@ -56,7 +57,7 @@ app.get('/redirect', function(req, res) {
         console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
       })
 
- app.listen(app.get('port), function() {
+ app.listen(app.get('port'), function() {
         console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
       })
     
