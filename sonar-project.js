@@ -16,4 +16,4 @@ sonarqubeScanner({
 	  //'sonar.tests': 'specs',
           //'sonar.inclusions' : 'src/**'
        },
-}, () => {});
+}, () => );
